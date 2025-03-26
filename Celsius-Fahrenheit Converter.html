@@ -4,26 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Celsius-Fahrenheit Converter</title>
-    <link rel="stylesheet" href="Celsius-Fahrenheit Converter.css">
+    <link rel="stylesheet" href="Celsius-Fahrenheit Converter.css" />
   </head>
   <body>
     <h1>Celsius-Fahrenheit Converter</h1>
 
     <div class="converter">
-      
-        <p class="ttl">Insert Temperature</p>
-        <input type="number" id="temperature" placeholder="Enter Temperature">
-        <br>
-        <select id="unit">
-            <option value="celsius">Celsius (°C)</option>
-            <option value="fahrenheit">Fahrenheit (°F)</option>
-        </select>
-        <br>
-        <button onclick="convertTemperature()">Convert</button>
+      <p class="ttl">Insert Temperature</p>
+      <input type="number" id="temperature" placeholder="Enter Temperature" />
+      <br/>
 
-        <p id="temperatureResult"></p>
+      <select id="unit">
+        <option value="celsius">Celsius (°C)</option>
+        <option value="fahrenheit">Fahrenheit (°F)</option>
+      </select>
+
+      <br/>
+
+      <button onclick="convertTemperature()">Convert</button>
+
+      <p id="temperatureResult"></p>
     </div>
 
-<script src="Celsius-Fahrenheit Converter.js"></script>
+    <script src="Celsius-Fahrenheit Converter.js"></script>
   </body>
 </html>
